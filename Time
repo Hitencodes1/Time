@@ -1,0 +1,16 @@
+import time
+timestamp = time.strftime('%H:%M:%S')
+if (timestamp >= "04:30:00" and timestamp < "12:00:00"):
+        print("Good Morning")
+elif (timestamp >= "19:00:00" and timestamp <= "20:30:00"):
+        print("It is starting to get dark")
+elif (timestamp >= "12:00:00" and timestamp < "17:00:00"):
+        print("Good Afternoon")
+elif (timestamp >= "17:00:00" and timestamp < "19:00:00"):
+        print("Good Evening")
+else:
+    print("Good Night")
+
+
+
+
